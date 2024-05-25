@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exceptions>
+    <exception package="com.motorola.cn.deskclock"
+        cert="BE:88:04:A5:5E:90:45:A5:80:D2:04:97:9F:6E:FB:15:C0:58:73:1A:A1:02:1B:78:C0:46:FE:AB:8A:E7:6A:26">
+        <permission name="android.permission.POST_NOTIFICATIONS" fixed="true"/>
+    </exception>
+</exceptions>
