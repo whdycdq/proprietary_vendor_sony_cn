@@ -26,8 +26,10 @@ PRODUCT_COPY_FILES += \
    $(LOCAL_Moto)/permissions/permissions/privapp-permissions-com.android.messaging.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.android.messaging.xml \
    $(LOCAL_Moto)/permissions/default-permissions/com.android.contacts.default-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/default-permissions/com.android.contacts.default-permissions.xml \
    $(LOCAL_Moto)/permissions/default-permissions/com.android.dialer.default-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/default-permissions/com.android.dialer.default-permissions.xml \
-   $(LOCAL_Moto)/permissions/default-permissions/com.motorola.cn.deskclock.default-permissions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/com.motorola.cn.deskclock.default-permissions.xml
-
+   $(LOCAL_Moto)/permissions/default-permissions/com.motorola.cn.deskclock.default-permissions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/com.motorola.cn.deskclock.default-permissions.xml \
+   $(LOCAL_Moto)/permissions/default-permissions/default-permission-com.motorola.timeweatherwidget.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permission-com.motorola.timeweatherwidget.xml \
+   $(LOCAL_Moto)/permissions/permissions/com.motorola.timeweatherwidget.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.timeweatherwidget.xml \
+   $(LOCAL_Moto)/permissions/sysconfig/hiddenapi-whitelist-com.motorola.timeweatherwidget.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.timeweatherwidget.xml
 # Moto Apps
 PRODUCT_PACKAGES += \
     MotoContacts \
@@ -37,4 +39,5 @@ PRODUCT_PACKAGES += \
     MotoCalendar \
     MotoDeskClock \
     MotoGallery \
-    MotoPrcCompass
+    MotoPrcCompass \
+    MotoWidget 
